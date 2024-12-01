@@ -9,7 +9,7 @@ var networkConfigs = {
         'name': 'Main Network (BKC)',
         'api': 'https://api.briskcoin.org',
         'ticker': 'BKC',
-        'decimals': 6,
+        'decimals': 8,
         'fee': 0.00001,
         'network': {
             'messagePrefix': '\x19Briskcoin Signed Message:\n',
@@ -19,7 +19,7 @@ var networkConfigs = {
             },
             'bech32': 'bc',
             'pubKeyHash': 0x19,
-            'scriptHash': 0x51,
+            'scriptHash': 0x21,
             'wif': 0x99
         }
     }
