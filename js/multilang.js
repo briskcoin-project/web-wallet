@@ -1,7 +1,7 @@
 var walletLanguages = {
 	'en': {
 		'lang-alias': 'English',
-		'wallet-title': 'Wallet',
+		'wallet-title': 'Web Wallet',
 		'open-regular': 'Regular wallet',
 		'open-key': 'Open by key',
 		'disclaimer': 'This page uses javascript to generate your addresses and sign your transactions within your browser, this means we never receive your private keys, this can be independently verified by reviewing the source code on Github.',
@@ -161,7 +161,7 @@ var walletLanguages = {
 	},
 	'id': {
 		'lang-alias': 'Indonesian',
-		'wallet-title' : 'Wallet',
+		'wallet-title' : 'Web Wallet',
 		'open-regular': 'Buka dompet',
 		'open-key': 'Buka dengan kunci',
 		'disclaimer': 'Halaman ini menggunakan javascript untuk menghasilkan alamat dompet dan menandatangani transaksi Anda, ini berarti kami tidak pernah menerima kunci domprt pribadi Anda, ini diverifikasi secara terpisah dengan melihat sumber code di Github.',
@@ -610,7 +610,7 @@ var walletLanguages = {
 	},
 	'de': {
 		'lang-alias': 'Deutsch',
-		'wallet-title': 'Wallet',
+		'wallet-title': 'Web Wallet',
 		'open-regular': 'Reguläre Wallet',
 		'open-key': 'Mit Schlüssel öffnen',
 		'disclaimer': 'Dieses Wallet benutzt JavaScript um Deine Adressen zu generieren und Transaktionen im Browser zu signieren. Zu keinem Zeitpunkt wird hierbei dein Privatschlüssel dauerhaft gespeichert!! Zur Überprüfung kann der Quellcode jederzeit im GitHub eingesehen werden.',

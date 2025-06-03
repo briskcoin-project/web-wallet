@@ -98,16 +98,49 @@
 			.break-word {
 				word-wrap: break-word;
 			}
+			.bg-custom {
+				background-color: #6699ff;
+			}
+
+			.bg-custom .navbar-brand,
+			.bg-custom .navbar-nav .nav-link {
+				color: white !important;
+				transition: color 0.3s ease;
+				font-weight: bold;
+			}
+
+			/* On hover */
+			.bg-custom .navbar-nav .nav-link:hover {
+				color: #ffcc00 !important; /* yellow */
+				font-weight: bold;
+			}
+
+			/* On click (active) */
+			.bg-custom .navbar-nav .nav-link:active,
+			.bg-custom .navbar-nav .nav-link.active {
+				color: #333 !important; /* red */
+				font-weight: bold;
+			}
+			.navbar-brand {
+				display: flex;
+				align-items: center; /* Vertical center */
+				gap: 10px; /* Optional spacing between image and text */
+			}
+
+			.navbar-brand img {
+				width: 40px;
+				height: 40px;
+			}
 		</style>
-		<title>Wallet</title>
+		<title>Web Wallet</title>
 		<meta name="description" content="Briskcoin Web Wallet">
 	</head>
 	<body>
-		<!-- Navbar -->
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+		<!-- Navbar bg-dark-->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom">
 			<div class="container">
 				<a href="#" class="navbar-brand">
-          <img src="https://briskcoin.org/public/images/logo512x512.png" style="width: 32px; height: 32px;" />
+          			<img src="https://briskcoin.org/public/images/bkc512x512-w-border.png" style="width: 40px; height: 40px;" />
 					<b tkey="wallet-title"></b>
 				</a>
 				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -135,7 +168,7 @@
 				</div>
 			</div>
 		</nav>
-		
+		<br>
 		<!-- Error message and search -->
 		<div class="container">
 			<div id="error-message" class="alert alert-warning d-none" role="alert">
